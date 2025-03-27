@@ -17,9 +17,9 @@
 
   <body>
     <header class="menu">
-      <p>About</p>
-      <p>Portfolios</p>
-      <p>Contact</p>
+      <a href="#aboutSection"><p>About</p></a>
+      <a href="#portfolioSection"><p>Portfolios</p></a>
+      <a href="#contactSection"><p>Contact</p></a>
     </header>
 
     <section class="namePage">
@@ -38,10 +38,68 @@
         <p class="prof">Professional musician</p>
       </div>
     </section>
-    <section class="aboutPage"></section>
-    <section class="portfolioPage"></section>
-    <section class="skillsPage"></section>
-    <section class="hobbyPage"></section>
-    <section class="contactPage"></section>
+
+    <section class="aboutPage" id="aboutSection">
+      <div>
+        <h1 class="sectionName">Something about</h1>
+        <h1 class="HCorrection sectionName">me</h1>
+      </div>
+
+      <div class="aboutFlexBox">
+        <img src="szopini.png" alt="Elegancki szop grający na saksofonie" />
+        <p>
+          A passionate saxophonist, an engineer by profession.
+          <b>Perfectionist</b>. Experience as <b>web/frontend</b> developer and
+          python programmer. Interested in the field of <b>WEB 3.0</b>,
+          blockchain, artificial intelligence and machine learning. Passionate
+          about modeling and 3D printing. Always thirsty for
+          <b>new</b> knowledge.
+        </p>
+      </div>
+    </section>
+    <section class="portfolioPage" id="portfolioSection">
+      <h1 class="sectionName titleRight">Portfolios</h1>
+    </section>
+    <section class="skillsPage">
+      <h1 class="sectionName">My skills</h1>
+
+      <ul>
+        <li>HTML/CSS/BOOTSTRAP</li>
+        <li>JavaScript/JQuery</li>
+        <li>React</li>
+        <li>Python: pandas/librosa/sqlite3</li>
+        <li>SQL</li>
+        <li>Git</li>
+        <li>Availability/Commitment</li>
+      </ul>
+    </section>
+    <section class="hobbyPage">
+      <h1 class="sectionName titleRight">Hobbies</h1>
+      <p class="hobbyDescription">
+        Jazz music enthusiast. I started my musical adventure at the age of 7
+        with the piano. I played the clarinet, trumpet and percussion but the
+        saxophone became the chosen one. In my free time, I learn new
+        improvisations, read and go to the gym.
+      </p>
+    </section>
+    <section class="contactPage" id="contactSection">
+      <h1 class="sectionName">Contact</h1>
+
+      <div class="constactDescription">
+        <h2>If you liked my web or you wanna contact me ...</h2>
+      </div>
+      <h2 class="hCenter">here you can find me</h2>
+      <div class="imgContainer">
+        <img src="./Linkedin.png" alt="" />
+        <img src="./Instagram.png" alt="" />
+        <img src="./Mail.png" alt="" />
+        <img src="./Github.png" alt="" />
+      </div>
+
+      <div class="cvSection">
+        <h1>Still need my CV?</h1>
+        <a href=""><h1>CV - linked</h1></a>
+      </div>
+    </section>
   </body>
 </html>
