@@ -2,7 +2,8 @@
 html {
   font-family: "Golos Text", sans-serif;
   font-optical-sizing: auto;
-  background-color: black;
+  /* background-color: black; */
+  background-image: linear-gradient(44deg, rgb(0, 0, 0) 88.2%, #fee2b4 115.6%);
 }
 
 h1,
@@ -45,6 +46,10 @@ a {
   margin-top: -50px;
 }
 
+.nameFlexBox img {
+  width: 1200px;
+}
+
 .myName {
   margin-left: -400px;
   font-weight: 800;
@@ -75,6 +80,8 @@ a {
   position: relative;
   top: 20vh;
   height: 100vh;
+  background-image: linear-gradient(224deg, rgb(0, 0, 0) 88.2%, #fee2b4 115.6%);
+  /* background-image: linear-gradient(44deg, rgb(0, 0, 0) 88.2%, #fee2b4 115.6%); */
 }
 
 .sectionName {
@@ -103,7 +110,6 @@ a {
 
 .aboutFlexBox img {
   width: 15%;
-  box-shadow: 10px 10px #e7cda3;
   border-radius: 0 30px 0 30px;
 }
 
@@ -112,6 +118,7 @@ a {
   position: relative;
   top: 20vh;
   height: 100vh;
+  background-image: linear-gradient(44deg, rgb(0, 0, 0) 88.2%, #fee2b4 115.6%);
 }
 
 .titleRight {
@@ -124,6 +131,7 @@ a {
   position: relative;
   top: 20vh;
   height: 100vh;
+  background-image: linear-gradient(44deg, rgb(0, 0, 0) 88.2%, #fee2b4 115.6%);
 }
 
 ul {
@@ -139,11 +147,12 @@ ul {
 
   letter-spacing: 0.2rem;
 }
-
+/* Hobby Page */
 .hobbyPage {
   position: relative;
   top: 20vh;
   height: 100vh;
+  background-image: linear-gradient(44deg, rgb(0, 0, 0) 88.2%, #fee2b4 115.6%);
 }
 
 .hobbyDescription {
@@ -160,6 +169,14 @@ h2 {
   font-size: 90px;
   max-width: 13em;
   text-align: justify;
+}
+
+/* Contact Page */
+.contactPage {
+  position: relative;
+  top: 20vh;
+  height: 100vh;
+  background-image: linear-gradient(44deg, rgb(0, 0, 0) 88.2%, #fee2b4 115.6%);
 }
 
 .constactDescription {
