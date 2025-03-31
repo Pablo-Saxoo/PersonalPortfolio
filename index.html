@@ -15,11 +15,11 @@
     />
   </head>
 
-  <body>
+  <body class="finisher-header">
     <header class="menu">
-      <a href="#aboutSection"><p>About</p></a>
-      <a href="#portfolioSection"><p>Portfolios</p></a>
-      <a href="#contactSection"><p>Contact</p></a>
+      <a class="btn-7" href="#aboutSection"><p>About</p></a>
+      <a class="btn-7" href="#portfolioSection"><p>Portfolios</p></a>
+      <a class="btn-7" href="#contactSection"><p>Contact</p></a>
     </header>
 
     <section class="namePage">
@@ -35,8 +35,13 @@
       </div>
 
       <div class="professionFlexBox">
-        <p>Web developer</p>
-        <p class="prof">Professional musician</p>
+        <!-- <p>Web developer</p>
+        <p class="prof">Professional musician</p> -->
+
+        <div id="flip">
+          <div><div>Web developer</div></div>
+          <div><div>Professional musician</div></div>
+        </div>
       </div>
     </section>
 
@@ -48,7 +53,8 @@
 
       <div class="aboutFlexBox">
         <img src="szopini2.png" alt="Elegancki szop grający na saksofonie" />
-        <p>
+
+        <p class="cursor typewriter-animation">
           A passionate saxophonist, an engineer by profession.
           <b>Perfectionist</b>. Experience as <b>web/frontend</b> developer and
           python programmer. Interested in the field of <b>WEB 3.0</b>,
@@ -64,7 +70,7 @@
     <section class="skillsPage">
       <h1 class="sectionName">My skills</h1>
 
-      <ul>
+      <!-- <ul>
         <li>HTML/CSS/BOOTSTRAP</li>
         <li>JavaScript/JQuery</li>
         <li>React</li>
@@ -72,7 +78,92 @@
         <li>SQL</li>
         <li>Git</li>
         <li>Availability/Commitment</li>
-      </ul>
+      </ul> -->
+
+
+<!-- ////////////////////////////////////////////////////////////// -->
+<div class="tag-list">
+  <div class="loop-slider" style="--duration:15951ms; --direction:normal;">
+    <div class="inner">
+      <div class="tag"><span>#</span> JavaScript</div>
+      <div class="tag"><span>#</span> webdev</div>
+      <div class="tag"><span>#</span> Typescript</div>
+      <div class="tag"><span>#</span> Next.js</div>
+      <div class="tag"><span>#</span> UI/UX</div>
+      <!-- duplicated content -->
+      <div class="tag"><span>#</span> JavaScript</div>
+      <div class="tag"><span>#</span> webdev</div>
+      <div class="tag"><span>#</span> Typescript</div>
+      <div class="tag"><span>#</span> Next.js</div>
+      <div class="tag"><span>#</span> UI/UX</div>
+    </div>
+  </div>
+  <div class="loop-slider" style="--duration:19260ms; --direction:reverse;">
+    <div class="inner">
+      <div class="tag"><span>#</span> webdev</div>
+      <div class="tag"><span>#</span> Gatsby</div>
+      <div class="tag"><span>#</span> JavaScript</div>
+      <div class="tag"><span>#</span> Tailwind</div>
+      <div class="tag"><span>#</span> Typescript</div>
+      <!-- duplicated content -->
+      <div class="tag"><span>#</span> webdev</div>
+      <div class="tag"><span>#</span> Gatsby</div>
+      <div class="tag"><span>#</span> JavaScript</div>
+      <div class="tag"><span>#</span> Tailwind</div>
+      <div class="tag"><span>#</span> Typescript</div>
+    </div>
+  </div>
+  <div class="loop-slider" style="--duration:10449ms; --direction:normal;">
+    <div class="inner">
+      <div class="tag"><span>#</span> animation</div>
+      <div class="tag"><span>#</span> Tailwind</div>
+      <div class="tag"><span>#</span> React</div>
+      <div class="tag"><span>#</span> SVG</div>
+      <div class="tag"><span>#</span> HTML</div>
+      <!-- duplicated content -->
+      <div class="tag"><span>#</span> animation</div>
+      <div class="tag"><span>#</span> Tailwind</div>
+      <div class="tag"><span>#</span> React</div>
+      <div class="tag"><span>#</span> SVG</div>
+      <div class="tag"><span>#</span> HTML</div>
+    </div>
+  </div>
+  <div class="loop-slider" style="--duration:16638ms; --direction:reverse;">
+    <div class="inner">
+      <div class="tag"><span>#</span> Gatsby</div>
+      <div class="tag"><span>#</span> HTML</div>
+      <div class="tag"><span>#</span> CSS</div>
+      <div class="tag"><span>#</span> React</div>
+      <div class="tag"><span>#</span> Next.js</div>
+      <!-- duplicated content -->
+      <div class="tag"><span>#</span> Gatsby</div>
+      <div class="tag"><span>#</span> HTML</div>
+      <div class="tag"><span>#</span> CSS</div>
+      <div class="tag"><span>#</span> React</div>
+      <div class="tag"><span>#</span> Next.js</div>
+    </div>
+  </div>
+  <div class="loop-slider" style="--duration:15936ms; --direction:normal;">
+    <div class="inner">
+      <div class="tag"><span>#</span> Next.js</div>
+      <div class="tag"><span>#</span> React</div>
+      <div class="tag"><span>#</span> webdev</div>
+      <div class="tag"><span>#</span> Typescript</div>
+      <div class="tag"><span>#</span> Gatsby</div>
+      <!-- duplicated content -->
+      <div class="tag"><span>#</span> Next.js</div>
+      <div class="tag"><span>#</span> React</div>
+      <div class="tag"><span>#</span> webdev</div>
+      <div class="tag"><span>#</span> Typescript</div>
+      <div class="tag"><span>#</span> Gatsby</div>
+    </div>
+  </div>
+  <div class="fade"></div>
+</div>
+</div>
+<!-- ////////////////////////////////////////////////////////////// -->
+
+
     </section>
     <section class="hobbyPage">
       <h1 class="sectionName titleRight">Hobbies</h1>
@@ -102,5 +193,40 @@
         <a href=""><h1>CV - linked</h1></a>
       </div>
     </section>
+
+    <script src="finisher-header.es5.min.js" type="text/javascript"></script>
+    <!-- <script src="gradData.js" type="text/javascript"></script> -->
+
+    <script type="text/javascript">
+      new FinisherHeader({
+        count: 7,
+        size: {
+          min: 1100,
+          max: 1500,
+          pulse: 2,
+        },
+        speed: {
+          x: {
+            min: 4.1,
+            max: 4.2,
+          },
+          y: {
+            min: 0,
+            max: 0.3,
+          },
+        },
+        colors: {
+          background: "#000000",
+          particles: ["#fee2b4", "#f8b953", "#ad7417"],
+        },
+        blending: "lighten",
+        opacity: {
+          center: 0.15,
+          edge: 0,
+        },
+        skew: 1,
+        shapes: ["c"],
+      });
+    </script>
   </body>
 </html>
