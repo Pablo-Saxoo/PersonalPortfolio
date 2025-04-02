@@ -70,9 +70,9 @@ a {
 .logoHere {
   padding: 1px; /* Adjust to change the thickness of the gradient border */
   /* background-image: radial-gradient(circle, #fee2b4, #feb47b); */
-  box-shadow: 0 0 20px rgba(255, 126, 95, 0.6),
+  box-shadow: 0 0 20px rgba(254, 168, 87, 0.6),
     /* Outer glow */ 0 0 40px rgba(254, 180, 123, 0.4),
-    /* Medium glow */ 0 0 60px rgba(255, 126, 95, 0.3); /* Inner glow */
+    /* Medium glow */ 0 0 60px rgba(213, 149, 59, 0.3); /* Inner glow */
   border-radius: 50%; /* Makes the gradient circular */
   width: 400px;
   height: 400px;
