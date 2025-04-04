@@ -204,6 +204,18 @@ a {
   width: 90%;
 }
 
+.newBeginging {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -150px;
+}
+
+.newBeginging img {
+  width: 60%;
+}
+
+/* Skill Page  */
 .skillsPage {
   position: relative;
   top: 20vh;
@@ -222,6 +234,7 @@ a {
   padding: 1.5rem 0;
   overflow: hidden;
   margin-left: 30%;
+  margin-top: 350px;
 }
 
 .loop-slider {
