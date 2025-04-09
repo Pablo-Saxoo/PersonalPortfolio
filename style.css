@@ -219,19 +219,78 @@ a {
 
 .titleRight {
   display: flex;
+  position: relative;
   justify-content: flex-end;
   width: 90%;
+  margin-bottom: 100px;
 }
 
 .newBeginging {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -150px;
+  /* margin-top: -50px; */
 }
 
 .newBeginging img {
-  width: 60%;
+  /* position: absolute; */
+  width: 50%;
+  margin-top: 100px;
+}
+
+.newBeginging .text-overlay {
+  /* background: linear-gradient(-50deg, rgba(254, 168, 87), black); */
+  /* background: #fea857; */
+  background: radial-gradient(at right bottom, #fea857, #010101);
+  position: absolute;
+  width: 50%;
+  height: 59%;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  border-radius: 30px;
+  /* margin-top: -5%; */
+}
+
+.newBeginging:hover .text-overlay {
+  opacity: 1;
+}
+
+.text-details {
+  padding-top: 100px;
+  position: absolute;
+  width: 50%;
+  top: 30%;
+  left: 50%;
+  text-align: center;
+  /* padding: 0 1px; */
+  opacity: 0;
+  transform: translate(-50%, -50%) rotateY(150deg);
+  transition: all 0.5s ease-in-out;
+}
+
+.text-details h1 {
+  margin-top: 100px;
+  font-size: 1.6rem;
+}
+
+.text-details p {
+  font-size: 1.5rem;
+  text-align: justify;
+  /* text-align: center; */
+  justify-content: center;
+  margin: 0 10% -250px 10%;
+}
+
+.text-details img {
+  width: 70%;
+  /* margin-top: 100px; */
+}
+
+.newBeginging:hover .text-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+  transform: translate(-50%, -50%) rotateY(0deg);
 }
 
 /* Skill Page  */
@@ -333,7 +392,8 @@ ul {
 
 .hobbyDescription {
   font-size: 36px;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
+  line-height: 4.2rem;
 
   max-width: 50vw;
   text-align: justify;
