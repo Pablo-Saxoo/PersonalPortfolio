@@ -446,3 +446,12 @@ h2 {
   font-weight: 900;
   margin: 0 1.5rem 0 1.5rem;
 }
+
+.icon {
+  /* border: 5px solid #fee2b4; */
+  border-radius: 20%;
+  /* background: #fee2b4; */
+  box-shadow: 0 0 20px rgba(254, 168, 87, 0.6),
+    /* Outer glow */ 0 0 40px rgba(254, 180, 123, 0.4),
+    /* Medium glow */ 0 0 60px rgba(213, 149, 59, 0.3);
+}
