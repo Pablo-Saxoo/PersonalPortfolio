@@ -227,73 +227,63 @@ a {
 }
 
 .newBeginging {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* margin-top: -50px; */
+  position: relative;
+  width: 950px;
+  margin: 0 auto;
 }
 
 .newBeginging img {
-  /* position: absolute; */
-  width: 950px;
-  margin-top: 100px;
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 1;
 }
 
-.newBeginging .text-overlay {
-  /* background: linear-gradient(-50deg, rgba(254, 168, 87), black); */
-  /* background: #fea857; */
-  background: radial-gradient(at right bottom, #fea857, #010101);
+.text-overlay {
   position: absolute;
-  width: 950px;
-  height: 40rem;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(at right bottom, #fea857, #010101);
   opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 2;
+  pointer-events: none;
+  border-radius: 50px;
+}
+
+.text-details {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%) rotateY(150deg);
+  opacity: 0;
+  text-align: center;
   transition: all 0.5s ease-in-out;
-  border-radius: 30px;
-  /* margin-top: -5%; */
+  z-index: 3;
+  pointer-events: none;
+}
+
+.text-details p,
+.text-details img {
+  max-width: 100%;
+  pointer-events: none;
 }
 
 .newBeginging:hover .text-overlay {
   opacity: 1;
 }
 
-.text-details {
-  padding-top: 100px;
-  position: absolute;
-  width: 50%;
-  /* top: 30%; */
-  left: 50%;
-  text-align: center;
-  /* padding: 0 1px; */
-  opacity: 0;
-  transform: translate(-50%, -50%) rotateY(150deg);
-  transition: all 0.5s ease-in-out;
-}
-
-.text-details h1 {
-  margin-top: 100px;
-  font-size: 1.6rem;
-}
-
-.text-details p {
-  font-size: 1.5rem;
-  text-align: justify;
-  /* text-align: center; */
-  justify-content: center;
-  width: 700px;
-  margin: 0 auto -250px auto;
+.newBeginging:hover .text-details {
+  opacity: 1;
+  transform: translate(-50%, -50%) rotateY(0deg);
 }
 
 .text-details img {
-  width: 700px;
-  height: auto;
-  /* margin-top: 100px; */
-}
-
-.newBeginging:hover .text-details {
-  top: 50%;
-  left: 50%;
-  opacity: 1;
-  transform: translate(-50%, -50%) rotateY(0deg);
+  position: relative;
+  margin-top: -200px;
 }
 
 /* Skill Page  */
